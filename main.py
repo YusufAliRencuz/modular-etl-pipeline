@@ -1,11 +1,11 @@
+import random
+import time
+
 from src.network import fetch_html
 from src.parser import main_parser, single_parser
 from src.storage import save
 from src.config import BASE_URL, REQUEST_DELAY_MAX, REQUEST_DELAY_MIN
 from src.logger import logger
-
-import random
-import time
 
 def main():
     try:

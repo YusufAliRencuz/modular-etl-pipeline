@@ -1,4 +1,5 @@
 import json
+
 from src.config import OUTPUT_FILE_PATH
 from src.logger import logger
 

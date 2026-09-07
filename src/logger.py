@@ -1,5 +1,6 @@
 import os
 import logging
+
 from src.config import DATA_DIR, LOG_FILE_PATH
 
 os.makedirs(DATA_DIR, exist_ok=True)

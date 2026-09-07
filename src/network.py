@@ -1,4 +1,5 @@
 import requests
+
 from src.config import HEADERS, REQUEST_TIMEOUT
 from src.logger import logger
 
